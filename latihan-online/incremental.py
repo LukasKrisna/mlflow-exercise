@@ -57,10 +57,10 @@ with mlflow.start_run():
     batch_accuracy = model.score(X_batch, y_batch)
     mlflow.log_metric("batch_accuracy", batch_accuracy)
     # Simpan model ke file lokal
-    dump(model, "online_model.joblib")
+    dump(model, "../online_model.joblib")
 
     # Log file model sebagai artefak ke MLflow
-    mlflow.log_artifact("online_model.joblib", artifact_path="model_artifacts")
+    mlflow.log_artifact("../online_model.joblib", artifact_path="model_artifacts")
     # Log model setelah selesai online training
     mlflow.sklearn.log_model(
         sk_model=model,

@@ -39,7 +39,7 @@ profile_default/
 nbconfig/
 
 # Data, models, artifacts, databases
-data.csv
+latihan-processing/data.csv
 data/
 *.db
 mlflow.db
