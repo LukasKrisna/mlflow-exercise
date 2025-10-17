@@ -1,0 +1,100 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+env/
+venv/
+.venv/
+venv/
+ENV/
+env.bak/
+env.lock
+pip-selfcheck.json
+pip-wheel-metadata/
+
+# Virtualenv / Conda (common names)
+latihan-processing-venv/
+.conda/
+.venv/
+
+# PyCharm / IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Jupyter
+.ipynb_checkpoints
+# keep notebooks themselves (manual.ipynb, automate.ipynb) tracked by default
+
+# Notebooks outputs and history
+.jupyter/
+profile_default/
+nbconfig/
+
+# Data, models, artifacts, databases
+data.csv
+data/
+*.db
+mlflow.db
+mlruns
+mlartifacts
+models/
+*.joblib
+*.pkl
+*.h5
+*.ckpt
+
+# Logs and runtime
+*.log
+logs/
+run/
+tmp/
+temp/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Secrets / env files
+.env
+.env.*
+secrets/
+*.pem
+*.key
+
+# Editors
+.vscode/
+.history/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Misc
+*.swp
+*.bak
+*.orig
